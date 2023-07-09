@@ -1,0 +1,66 @@
+Contents
+1: Getting Started with C++
+2: Setting Out to C++
+3: Dealing with Data
+4: Compound Types
+5: Loops and Relational Expressions
+6: Branching Statements and Logical Operators
+7: Functions: C++’s Programming Modules
+8: Adventures in Functions
+9: Memory Models and Namespaces
+10: Objects and Classes
+11: Working with Classes
+12: Classes and Dynamic Memory Allocation
+13: Class Inheritance
+14: Reusing Code in C++
+15: Friends, Exceptions, and More
+16: The string Class and the Standard Template Library
+17: Input, Output, and Files
+18: Visiting with the New C++ Standard
+
+Files
+ch01_getting_started
+ch02_setting_out
+ch03_dealing_with_data
+ch04_compound_types
+ch05_loops_n_relational_expressions
+ch06_branching_statements_n_logical_operators
+ch07_functions_cpp_programming_modules
+ch08_adventures_in_functions
+ch09_memory_models_n_namespaces
+ch10_objects_n_classes
+ch11_working_with_classes
+ch12_classes_n_dynamic_memory_allocation
+ch13_class_inheritance
+ch14_reusing_code
+ch15_friends_exceptions_n_more
+ch16_string_class_n_standard_template_library
+ch17_io_n_files
+ch18_visiting_with_new_standard
+
+Parse Double Notes
+DBL_EPSILON: 0x1.0000000000000p-52
+DBL_MAX:     0x1.fffffffffffffp+1023
+1234.567 -> (var)_16, var - ?
+1) 1234 -> (var1)_16
+    1234 / 16 = 77 + 2/16 : 2
+    77 / 16 = 4 + d/16 : d
+    4 / 16 : 4
+    var1=0x4d2
+2) 0.567 -> var2_16
+    0.567 * 16 = 9.072 : 9
+    0.072 * 16 = 1.152 : 1
+    0.152 * 16 = 2.432 : 2
+    0.432 * 16 = 6.912 : 6
+    0.912 * 16 = 14.592 : e
+    0.592 * 16 = 9.472 : 9
+    0.472 * 16 = 7.552 : 7
+    0.552 * 16 = 8.832 : 8
+    0.832 * 16 = 13.312 : d
+    0.312 * 16 = 4.992 : 4
+    0.992 * 16 = 15.872 : f
+    0.872 * 16 = 13.952 : d
+    0.952 * 16 = 15.232 : f
+    ...
+    var2=0x0.9126e978d4fdf
+var=0x4d2.9126e978d4fdf
